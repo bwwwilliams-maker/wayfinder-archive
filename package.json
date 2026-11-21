@@ -1,0 +1,23 @@
+{
+  "name": "wayfinder-archive",
+  "version": "1.0.0",
+  "description": "Wayfinder Archive — Location History Explorer: a zero-dependency Node.js heritage field-guide web app combining 65/35 archival dossiers, Web Speech audio narration, interactive walking maps, era scrubbing, and playable Fact or Tall Tale cards.",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "history",
+    "location-explorer",
+    "heritage",
+    "walking-tour",
+    "zero-dependency",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "dependencies": {}
+}

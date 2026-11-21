@@ -1,0 +1,13 @@
+# Environment secrets
+.env
+.env.local
+.env.*.local
+
+# Dependencies (none required, ignored defensively)
+node_modules/
+
+# Logs & OS clutter
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db

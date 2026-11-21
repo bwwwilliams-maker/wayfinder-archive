@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wayfinder Archive — Location History Explorer</title>
+    <meta
+      name="description"
+      content="Uncover the overlooked everyday history, Indigenous roots, historic buildings, walking maps, and local lore of any address with the Wayfinder Archive Field Kit."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <!-- Heritage Masthead -->
+    <header class="masthead" role="banner">
+      <div class="container masthead-inner">
+        <a href="#top" class="brand" aria-label="Wayfinder Archive Home">
+          <span class="brand-seal" aria-hidden="true">
+            <svg viewBox="0 0 36 36" width="32" height="32" fill="none">
+              <circle cx="18" cy="18" r="16" stroke="currentColor" stroke-width="1.5" />
+              <circle cx="18" cy="18" r="12.5" stroke="currentColor" stroke-width="0.75" stroke-dasharray="2 2" />
+              <path d="M18 4.5 L20.8 15.2 L31.5 18 L20.8 20.8 L18 31.5 L15.2 20.8 L4.5 18 L15.2 15.2 Z" fill="currentColor" fill-opacity="0.16" stroke="currentColor" stroke-width="1.2" />
+              <circle cx="18" cy="18" r="2.2" fill="currentColor" />
+            </svg>
+          </span>
+          <span class="brand-text">
+            <span class="brand-name">Wayfinder Archive</span>
+            <span class="brand-sub">Location History Explorer</span>
+          </span>
+        </a>
+
+        <div class="masthead-actions">
+          <span id="providerStatus" class="status-chip" title="Server lookup status">
+            Checking archive…
+          </span>
+          <button type="button" id="jumpSavedBtn" class="btn btn-ghost btn-sm">
+            Field Book (<span id="mastheadSavedCount">0</span>)
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Search & Quick-Pick Bar -->
+    <section id="top" class="hero" aria-label="Explore a Location">
+      <div class="hero-topo" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <p class="hero-kicker">Archival Field Guide · 65/35 Local History Method</p>
+        <h1 class="hero-title">Where are we stopping next?</h1>
+        <p class="hero-lead">
+          Type any street address, storefront, café, or landmark to peel back the people,
+          buildings, oddities, and closest-first hidden gems waiting right outside the door.
+        </p>
+
+        <form id="exploreForm" class="search-shell" autocomplete="off">
+          <label for="addressInput" class="sr-only">Enter an address or landmark</label>
+          <span class="search-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </span>
+          <input
+            id="addressInput"
+            name="query"
+            type="text"
+            class="search-input"
+            placeholder="Try 1517 Miner St, Idaho Springs, CO — or any place you're curious about…"
+            required
+          />
+          <button type="submit" id="exploreSubmitBtn" class="btn btn-primary search-submit">
+            <span class="btn-label">Explore Stop</span>
+            <span class="btn-spinner" aria-hidden="true"></span>
+          </button>
+        </form>
+
+        <div class="quick-picks" aria-label="Quick-pick stops">
+          <span class="quick-picks-label">Quick-pick stops:</span>
+          <div id="quickPickList" class="quick-pick-chips"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Dossier Workspace -->
+    <main class="container workspace" id="dossierRoot">
+      <!-- Graceful Notice Banner (shown on fallback or live search metadata) -->
+      <aside id="noticeBanner" class="notice-banner" hidden aria-live="polite">
+        <div class="notice-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="16" x2="12" y2="12"></line>
+            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+          </svg>
+        </div>
+        <div class="notice-body">
+          <strong id="noticeTitle">Archive Notice</strong>
+          <p id="noticeText"></p>
+        </div>
+        <button type="button" id="dismissNoticeBtn" class="btn-icon" aria-label="Dismiss notice">✕</button>
+      </aside>
+
+      <!-- Dossier Title Plate -->
+      <section class="title-plate" aria-label="Active Location Overview">
+        <div class="title-plate-top">
+          <div class="title-plate-badges">
+            <span id="dossierSourceBadge" class="meta-badge badge-verified">Verified Dossier</span>
+            <span id="dossierArchetype" class="meta-badge badge-neutral">Historic Storefront</span>
+          </div>
+          <div class="title-plate-actions">
+            <button type="button" id="saveStopBtn" class="btn btn-outline btn-sm">
+              <span id="saveStopIcon" aria-hidden="true">☆</span>
+              <span id="saveStopLabel">Save to Field Book</span>
+            </button>
+          </div>
+        </div>
+
+        <h2 id="dossierName" class="dossier-title">Loading Wayfinder Dossier…</h2>
+        <p id="dossierSubtitle" class="dossier-subtitle"></p>
+        <p id="dossierTagline" class="dossier-tagline"></p>
+
+        <dl class="dossier-meta-strip">
+          <div class="meta-item">
+            <dt>Address</dt>
+            <dd id="metaAddress">—</dd>
+          </div>
+          <div class="meta-item">
+            <dt>District / Micro-Area</dt>
+            <dd id="metaNeighborhood">—</dd>
+          </div>
+          <div class="meta-item">
+            <dt>Coordinates &amp; Elevation</dt>
+            <dd id="metaCoords" class="mono">—</dd>
+          </div>
+          <div class="meta-item">
+            <dt>Built / Era</dt>
+            <dd id="metaYearBuilt" class="mono">—</dd>
+          </div>
+          <div class="meta-item">
+            <dt>Listen / Read</dt>
+            <dd id="metaListenTime" class="mono">—</dd>
+          </div>
+        </dl>
+      </section>
+
+      <!-- Modular Field Kit Controls -->
+      <nav class="field-kit-bar" aria-label="Modular Field Kit toggles">
+        <div class="field-kit-header">
+          <span class="field-kit-label">Field Kit Modules</span>
+          <span class="field-kit-hint">Toggle any tool on or off</span>
+          <button type="button" id="showAllModulesBtn" class="btn-link">Show All</button>
+        </div>
+        <div class="field-kit-toggles" id="fieldKitToggles">
+          <button type="button" class="kit-toggle is-active" data-module="story" aria-pressed="true">
+            <span class="kit-check" aria-hidden="true">✓</span>
+            <span>Story &amp; Audio</span>
+          </button>
+          <button type="button" class="kit-toggle is-active" data-module="map" aria-pressed="true">
+            <span class="kit-check" aria-hidden="true">✓</span>
+            <span>Walking Map &amp; Gems</span>
+          </button>
+          <button type="button" class="kit-toggle is-active" data-module="time" aria-pressed="true">
+            <span class="kit-check" aria-hidden="true">✓</span>
+            <span>Peel Back Time</span>
+          </button>
+          <button type="button" class="kit-toggle is-active" data-module="trivia" aria-pressed="true">
+            <span class="kit-check" aria-hidden="true">✓</span>
+            <span>Fact or Tall Tale?</span>
+          </button>
+          <button type="button" class="kit-toggle is-active" data-module="archives" aria-pressed="true">
+            <span class="kit-check" aria-hidden="true">✓</span>
+            <span>Archives &amp; Export</span>
+          </button>
+        </div>
+      </nav>
+
+      <!-- MODULE 1: STORY & AUDIO -->
+      <section id="module-story" class="kit-module" data-module-section="story" aria-labelledby="heading-story">
+        <div class="module-head">
+          <div>
+            <p class="module-eyebrow">Module 01 · Unhurried Narrative</p>
+            <h3 id="heading-story" class="module-title">Story &amp; Audio Guide</h3>
+          </div>
+          <div class="chapter-tabs" id="chapterTabs" role="tablist" aria-label="Story chapters"></div>
+        </div>
+
+        <!-- Web Speech API "Listen Along" Audio Bar -->
+        <div id="audioBar" class="audio-bar" aria-label="Listen Along audio controls">
+          <div class="audio-bar-primary">
+            <div class="audio-transport">
+              <button type="button" id="audioPrevBtn" class="btn-audio" title="Previous paragraph" aria-label="Previous paragraph">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M6 6h2v12H6zm3.5 6 8.5 6V6z"/></svg>
+              </button>
+              <button type="button" id="audioPlayPauseBtn" class="btn-audio btn-audio-main" aria-label="Play audio narration">
+                <span id="audioPlayIcon" aria-hidden="true">▶</span>
+                <span id="audioPlayLabel">Listen Along</span>
+              </button>
+              <button type="button" id="audioNextBtn" class="btn-audio" title="Next paragraph" aria-label="Next paragraph">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg>
+              </button>
+              <button type="button" id="audioStopBtn" class="btn-audio" title="Stop narration" aria-label="Stop narration">
+                <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><rect x="6" y="6" width="12" height="12" rx="1.5"/></svg>
+              </button>
+            </div>
+
+            <div class="audio-readout">
+              <span id="audioStatusLabel" class="audio-status">Ready · Click any paragraph to start listening there</span>
+              <div class="audio-progress-track" aria-hidden="true">
+                <div id="audioProgressFill" class="audio-progress-fill" style="width: 0%"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="audio-bar-settings">
+            <label class="audio-control">
+              <span>Speed</span>
+              <select id="audioSpeedSelect" aria-label="Playback speed">
+                <option value="0.85">0.85×</option>
+                <option value="1" selected>1.0×</option>
+                <option value="1.15">1.15×</option>
+                <option value="1.3">1.3×</option>
+                <option value="1.5">1.5×</option>
+              </select>
+            </label>
+            <label class="audio-control audio-voice-control">
+              <span>Voice</span>
+              <select id="audioVoiceSelect" aria-label="Narrator voice">
+                <option value="">System Default Voice</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <!-- Narrative Prose Container -->
+        <div id="narrativeContainer" class="narrative-body"></div>
+
+        <!-- Section 5: Current Pulse & Community Chatter -->
+        <div id="pulseContainer" class="pulse-box"></div>
+      </section>
+
+      <!-- MODULE 2: WALKING MAP & CLOSEST-FIRST GEMS -->
+      <section id="module-map" class="kit-module" data-module-section="map" aria-labelledby="heading-map">
+        <div class="module-head">
+          <div>
+            <p class="module-eyebrow">Module 02 · Street-Level Field Walk</p>
+            <h3 id="heading-map" class="module-title">Walking Map &amp; Closest-First Gems</h3>
+          </div>
+          <p id="mapSubtitle" class="module-sub"></p>
+        </div>
+
+        <div class="map-workspace">
+          <div class="map-frame">
+            <div class="map-legend" aria-label="Map legend">
+              <span><i class="legend-dot legend-anchor"></i> Primary Stop</span>
+              <span><i class="legend-dot legend-intact"></i> Intact Historic</span>
+              <span><i class="legend-dot legend-relic"></i> Industrial Relic</span>
+              <span><i class="legend-dot legend-vanished"></i> Vanished Site</span>
+            </div>
+            <div id="svgMapMount" class="svg-map-mount" role="img" aria-label="Interactive walking map with numbered nearby gems"></div>
+            <div id="mapActiveBar" class="map-active-bar">
+              <span>Select any numbered pin or gem card to inspect its walking route &amp; on-site Spotter Tip.</span>
+            </div>
+          </div>
+
+          <div id="gemsList" class="gems-grid" aria-label="Nearby hidden gems sorted closest first"></div>
+        </div>
+      </section>
+
+      <!-- MODULE 3: PEEL BACK TIME -->
+      <section id="module-time" class="kit-module" data-module-section="time" aria-labelledby="heading-time">
+        <div class="module-head">
+          <div>
+            <p class="module-eyebrow">Module 03 · 65/35 Chronological Funnel &amp; Era Scrubber</p>
+            <h3 id="heading-time" class="module-title">Peel Back Time</h3>
+          </div>
+          <p class="module-sub">
+            35% deep ground &amp; regional context funneling tightly into 65% immediate block, exact parcel, and named people.
+          </p>
+        </div>
+
+        <!-- Visual 65/35 Funnel -->
+        <div class="funnel-block">
+          <div class="funnel-ratio-bar" role="img" aria-label="35 percent regional context and 65 percent immediate block and exact parcel">
+            <div class="ratio-segment ratio-context" id="ratioContextBar" style="width: 35%">
+              <strong>35%</strong> Deep Ground &amp; Regional Context
+            </div>
+            <div class="ratio-segment ratio-local" id="ratioLocalBar" style="width: 65%">
+              <strong>65%</strong> Immediate Block, Exact Parcel &amp; People
+            </div>
+          </div>
+          <div id="funnelTiers" class="funnel-tiers"></div>
+        </div>
+
+        <!-- Interactive Era Scrubber -->
+        <div class="scrubber-panel">
+          <div class="scrubber-header">
+            <div>
+              <p class="scrubber-kicker">Through the Looking Glass</p>
+              <h4 id="eraActiveTitle" class="scrubber-title">—</h4>
+            </div>
+            <span id="eraActiveYear" class="era-year-badge mono">—</span>
+          </div>
+
+          <div class="scrubber-controls">
+            <label for="eraSlider" class="sr-only">Scrub through historical eras</label>
+            <input id="eraSlider" type="range" min="0" max="6" value="0" step="1" class="era-slider" />
+            <div id="eraTicks" class="era-ticks"></div>
+          </div>
+
+          <div id="eraLensCard" class="era-lens-grid"></div>
+        </div>
+      </section>
+
+      <!-- MODULE 4: FACT OR TALL TALE? -->
+      <section id="module-trivia" class="kit-module" data-module-section="trivia" aria-labelledby="heading-trivia">
+        <div class="module-head">
+          <div>
+            <p class="module-eyebrow">Module 04 · Archival Verification Game</p>
+            <h3 id="heading-trivia" class="module-title">Fact or Tall Tale?</h3>
+          </div>
+          <div class="trivia-scoreboard" aria-live="polite">
+            <div class="score-pill">
+              <span class="score-label">Score</span>
+              <strong id="triviaScore" class="mono">0 / 0</strong>
+            </div>
+            <div class="score-pill">
+              <span class="score-label">Streak</span>
+              <strong id="triviaStreak" class="mono">0</strong>
+            </div>
+            <button type="button" id="resetTriviaBtn" class="btn btn-outline btn-sm">Reset Deck</button>
+          </div>
+        </div>
+
+        <p class="module-intro">
+          Every historic street blends documented deeds with campfire legend. Pick whether each claim is a
+          <strong>Verified Fact</strong>, <strong>Local Lore</strong>, or a <strong>Tall Tale</strong> to flip the card.
+        </p>
+
+        <div id="triviaGrid" class="trivia-grid"></div>
+      </section>
+
+      <!-- MODULE 5: ARCHIVES & EXPORT -->
+      <section id="module-archives" class="kit-module" data-module-section="archives" aria-labelledby="heading-archives">
+        <div class="module-head">
+          <div>
+            <p class="module-eyebrow">Module 05 · Sources, Saved Stops &amp; Field Exports</p>
+            <h3 id="heading-archives" class="module-title">Archives &amp; Export</h3>
+          </div>
+        </div>
+
+        <!-- Export Action Strip -->
+        <div class="export-strip" aria-label="Export dossier actions">
+          <button type="button" id="exportMdBtn" class="btn btn-primary btn-sm">Download .md</button>
+          <button type="button" id="exportJsonBtn" class="btn btn-outline btn-sm">Download .json</button>
+          <button type="button" id="copyNotesBtn" class="btn btn-outline btn-sm">Copy Notes</button>
+          <button type="button" id="printPdfBtn" class="btn btn-outline btn-sm">Print / PDF</button>
+        </div>
+
+        <div class="archives-grid">
+          <!-- Saved Stops (localStorage) -->
+          <div class="archive-card" id="savedStopsSection">
+            <div class="archive-card-head">
+              <h4>Your Saved Field Book</h4>
+              <span class="mono archive-count" id="savedCountBadge">0 saved</span>
+            </div>
+            <p class="archive-hint">
+              Saved directly in this browser (<code>localStorage</code>) so you can revisit pre-seeded and live-explored stops offline.
+            </p>
+            <div id="savedStopsList" class="saved-stops-list"></div>
+          </div>
+
+          <!-- Primary Sources & Dig Deeper -->
+          <div class="archive-card">
+            <div class="archive-card-head">
+              <h4>Primary Archival Sources</h4>
+              <span class="mono archive-count" id="sourcesCountBadge">0 sources</span>
+            </div>
+            <ul id="sourcesList" class="sources-list"></ul>
+
+            <h4 class="dig-deeper-heading">Where to Dig Deeper</h4>
+            <ul id="digDeeperList" class="dig-deeper-list"></ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Floating Audio Mini-Player -->
+    <aside id="floatingMiniPlayer" class="mini-player" hidden aria-label="Floating audio mini-player">
+      <div class="mini-player-info">
+        <span class="mini-player-kicker">Listening Along</span>
+        <span id="miniPlayerStatus" class="mini-player-text">Paragraph 1</span>
+      </div>
+      <div class="mini-player-controls">
+        <button type="button" id="miniPrevBtn" class="btn-audio btn-audio-sm" aria-label="Previous paragraph">⏮</button>
+        <button type="button" id="miniPlayPauseBtn" class="btn-audio btn-audio-main btn-audio-sm" aria-label="Play or pause">⏸</button>
+        <button type="button" id="miniNextBtn" class="btn-audio btn-audio-sm" aria-label="Next paragraph">⏭</button>
+        <button type="button" id="miniStopBtn" class="btn-audio btn-audio-sm" aria-label="Stop narration">■</button>
+      </div>
+    </aside>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>
+          <strong>Wayfinder Archive</strong> — Zero-dependency Node.js Heritage Field Guide · Built for slow reading, walking tours, and archival curiosity.
+        </p>
+        <p class="footer-meta mono">
+          <a href="/api/health" target="_blank" rel="noopener">API Health</a> ·
+          <a href="/api/stops" target="_blank" rel="noopener">Seeded Stops JSON</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="/app.js" defer></script>
+  </body>
+</html>

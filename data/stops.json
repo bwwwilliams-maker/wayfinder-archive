@@ -1,0 +1,792 @@
+{
+  "stops": [
+    {
+      "id": "beau-jos-idaho-springs",
+      "slug": "beau-jos-idaho-springs",
+      "name": "Beau Jo's Idaho Springs",
+      "subtitle": "Historic 1879 Mining Exchange Building · Birthplace of Colorado-Style Mountain Pie",
+      "shortLabel": "Beau Jo's · Idaho Springs, CO",
+      "address": "1517–1523 Miner St, Idaho Springs, CO 80452",
+      "neighborhood": "Downtown Miner Street National Historic District (Clear Creek County)",
+      "coordinates": {
+        "lat": 39.7425,
+        "lng": -105.5136,
+        "display": "39.7425° N, 105.5136° W"
+      },
+      "elevation": "7,526 ft",
+      "yearBuilt": "1879–1880s",
+      "archetype": "Historic Storefront & Landmark Restaurant",
+      "verified": true,
+      "listenMinutes": 8,
+      "tagline": "Where ore wagons once idled outside J. J. Elliott's assay desk and a 560-square-foot 1973 pizzeria braided Colorado honey into mountain folklore.",
+      "keywords": [
+        "beau jo",
+        "beau jos",
+        "beau jo's",
+        "1517 miner",
+        "1523 miner",
+        "1517-1523 miner",
+        "mining exchange",
+        "idaho springs"
+      ],
+      "chapters": [
+        {
+          "id": "overview",
+          "number": 1,
+          "title": "Location Overview",
+          "paragraphs": [
+            "Tucked into the steep granite trough of Clear Creek Canyon at 7,526 feet above sea level, 1517 through 1523 Miner Street sits at 39.7425 degrees north, 105.5136 degrees west in the heart of the Idaho Springs Downtown Commercial National Historic District. Today the multi-bay red-brick and timber-trimmed storefront welcomes hungry skiers, hikers, and highway travelers into the flagship dining room of Beau Jo's Idaho Springs. Yet the walls around those heavy wooden booths are nearly a century older than the restaurant's famous braided crusts: they belong to the 1879 and 1880s Mining Exchange Building, a brick-and-stone anchor erected when Idaho Springs was transforming from a canvas tent camp into a permanent hard-rock gold capital.",
+            "Long before a single assay crucible was lit on Miner Street, this narrow canyon floor was a vital gathering corridor for the Ute and Arapaho nations. Just a few hundred yards south across Clear Creek, geothermal mineral waters bubbled up along Soda Creek—an expanse respected as sacred neutral ground where both tribes paused rivalries to worship, trade, and heal their sick and wounded. Every boot print on Miner Street rests on that deeper layer of mountain geography: a canyon carved by snowmelt, warmed by magma-fed springs, and veined with the gold and silver ore that drew prospectors up from the plains.",
+            "What makes this exact footprint extraordinary is how cleanly two very different Colorado legends overlap inside the same brick envelope. In the 1880s, freighters lined Miner Street with dozens of ore wagons waiting to have their quartz weighed inside J. J. Elliott's assay office while Elliott tried to persuade skeptical townsfolk that electricity was safe. Nearly a century later, in April 1973, a twenty-five-year-old newcomer scraped together $8,500 to buy a 560-square-foot, fifteen-seat pizza shop tucked into this very building—and accidentally invented a trademarked regional cuisine sold by the pound."
+          ]
+        },
+        {
+          "id": "history",
+          "number": 2,
+          "title": "Deep & Everyday History",
+          "paragraphs": [
+            "To understand why 1517–1523 Miner Street exists at all, you have to step back to the canyon's ancient and Indigenous roots. For centuries before 1859, the clear snowmelt waters of Clear Creek and the steaming geothermal vents of nearby Soda Creek marked a recognized boundary and truce zone between the mountain-dwelling Ute and the plains-ranging Arapaho. Trails threaded along the gravel bars where downtown Idaho Springs now sits, leading people toward the healing pools. That seasonal rhythm shattered in January 1859, when a Missouri-born prospector named George A. Jackson followed a plume of steam up from the hot springs, built a bonfire to thaw frozen gravel at the confluence of Chicago Creek and Clear Creek on January 5, and panned out gleaming placer gold in a tin cup. Jackson paid for supplies down in Golden with gold dust, news leaked across the Front Range, and by spring thousands had surged into 'Jackson's Diggings,' sparking the Pike's Peak Gold Rush.",
+            "Early Idaho Springs cycled through half a dozen names—Sacramento City, Idahoe, Idaho City—while flimsy clapboard shanties and canvas tents crowded along the creek bed. When the easy stream-bed gold thinned out, deep hard-rock mines and the arrival of the Colorado Central Railroad in 1877 turned the camp into a serious industrial town. Fire was the constant terror of wooden mining camps, so civic leaders and property investors began replacing pine shacks with thick-walled brick commercial blocks along Miner Street. Between 1879 and the early 1880s, local developer and businessman Charles Shields helped anchor this south side of the 1500 block with the sturdy Mining Exchange Building at 1517–1523 Miner Street, joining a wave of durable brick storefronts erected by contemporaries like Henry Plummer, Robert Turner, and Ignatz Zeller.",
+            "Inside the Mining Exchange Building during the boom decade of the 1880s, the man everyone needed to see was J. J. Elliott. City directories billed Elliott as an assayer and bullion buyer, meaning miners hauled burlap sacks of crushed quartz right to the front door on Miner Street to learn whether their tunnel held fortune or fool's gold. On busy mornings, dozens of heavy freight wagons stood parked wheel-to-wheel outside 1517 Miner, mules stamping in the dirt while teamsters traded gossip across the boardwalk. Remarkably, Elliott also served as president and manager of the Idaho Springs Electric Company—a post that required nearly as much persuasion as engineering, because many residents viewed crackling incandescent wires as a dangerous passing fad likely to set the town ablaze.",
+            "Across the twentieth century, the Mining Exchange storefronts saw the full ebb and flow of a mountain town surviving mine closures, the 1903 miners' strike for an eight-hour workday, World War II's federal ban on gold mining, and the 1960s arrival of Interstate 70, which suddenly carried Denver weekenders right past the canyon floor toward Loveland and Summit County ski slopes. By the early 1970s, a tiny 560-square-foot storefront slice of the old Mining Exchange Building held a modest fifteen-seat pizza shop opened by a couple named Beau and Jo Ann Faulk. The little eatery brought in roughly $22,000 a year—barely enough to get by, yet right on the path of hungry skiers rolling down from the Continental Divide.",
+            "In April 1973, twenty-five-year-old Chip Bair—born in Brooklyn, raised in Minnesota, and drawn west by Colorado skiing—scraped together $8,500 to buy the fifteen-seat shop from Beau and Jo Ann Faulk, keeping their combined name on the door. Working nearly every role himself from dough-kneader to server, Bair woke before dawn to tuck paper flyers under windshield wipers in ski-area parking lots. Believing people eat with their eyes and wanting a hearty pie capable of feeding cold, ravenous skiers, he replaced refined sugar in the dough and sauce with local Colorado honey, rolled a thick hand-braided crust rim that acted like a dam for mountains of toppings, and began selling his 'Mountain Pies' by the pound—complete with squeeze bottles of honey on every table so the braided crust doubled as dessert.",
+            "Word spread down the I-70 corridor like wildfire. Over the decades, Bair expanded steadily through adjacent bays of the Mining Exchange Building at 1517–1523 Miner Street—hiring local contractor and future Clear Creek County Commissioner Randy Wheelock in the early 1970s to scrape plaster off the original 1879 brick walls—and eventually grew Beau Jo's into a regional Colorado institution employing hundreds of workers, including generations of Clear Creek High School 'Gold Diggers' working their first jobs. On April 1, 2023, the restaurant's fiftieth anniversary under his stewardship—officially proclaimed 'Beau Jo's Day' by Governor Jared Polis—Bair gathered townsfolk in the Idaho Springs dining room to announce his plan to transition the company to its workers through an Employee Stock Ownership Plan, aiming to keep the Miner Street flagship anchored in community hands."
+          ]
+        },
+        {
+          "id": "weird",
+          "number": 3,
+          "title": "Weird Facts & Unusual Metrics",
+          "paragraphs": [
+            "Start with the sheer architectural arithmetic of the restaurant's birth. The original 1973 Beau Jo's dining room inside 1517 Miner Street measured just 560 square feet—roughly the footprint of a modern two-car garage—and squeezed in only fifteen seats. For an $8,500 purchase price (some archival interviews with Bair recall scraping up $7,500 upfront), that worked out to roughly $566 per chair for a shop grossing $22,000 a year. Today, after expanding sideways across the 1517–1523 Miner Street bays, the Idaho Springs flagship seats hundreds and has served millions of pounds of Mountain Pie under the same Victorian brick roofline.",
+            "Selling pizza by weight rather than diameter—one-pound, two-pound, three-pound, and towering five-pound 'Grand' Mountain Pies—is itself an eccentric culinary metric rooted in Idaho Springs' assay-office heritage, where value was always measured on a scale. Even stranger from a legal standpoint is a documented trademark fact: in 2004, Beau Jo's formally trademarked both 'Colorado-Style Pizza' and 'Mountain Pie.' While rival mountain pizzerias across the Rockies can braid a crust or set a honey bear on the table, none can legally call their creation Colorado-style pizza—making this Miner Street storefront the rare American restaurant that owns the legal name of an entire state's signature dish.",
+            "Before pizza ovens ever warmed the brick, J. J. Elliott's dual career inside this exact building left behind an unusual nineteenth-century contrast documented on the historic district marker outside. While weighing raw gold dust by the troy ounce on precision balance beams at one desk, Elliott spent his evenings managing the Idaho Springs Electric Company—trying to talk merchants along Miner Street out of kerosene lamps and into electric bulbs at a time when citizens genuinely worried that running wire through dry wooden false-fronts would burn the canyon to cinders."
+          ]
+        },
+        {
+          "id": "lore",
+          "number": 4,
+          "title": "Curiosities, Obscure Tales & Local Lore",
+          "paragraphs": [
+            "A persistent piece of Clear Creek local lore claims that legendary showman William 'Buffalo Bill' Cody rode into Idaho Springs in January 1917 for one final whiskey-and-cider 'Stone Fence' cocktail with old miner friends just days before his death in Denver. While historical accounts do link Buffalo Bill's last drink on January 6, 1917 to the old Duck Inn saloon down the street rather than inside the Mining Exchange Building, the story circulates so freely along Miner Street that visitors occasionally mistake Beau Jo's timber-and-brick tavern vibe for Cody's last watering hole—a classic reminder of how boomtown memories migrate from storefront to storefront.",
+            "Another beloved piece of mountain lore surrounds the origin of honey on the table. Tall tales told in ski-lift lines sometimes claim Bair invented the honey drizzle because a shipment of sugar got snowed out on Floyd Hill during a 1973 blizzard. Documented interviews with Chip Bair tell a quieter, more deliberate story: inspired by the 1970s natural-foods movement, he intentionally swapped out white sugar for Colorado clover honey from day one—and was among the earliest pizzerias in the country to offer whole-wheat dough—so hungry skiers could turn the hefty braided edge into a sweet finish without ordering another course.",
+            "Ask longtime Idaho Springs locals about the building's everyday quirks, though, and the truest stories are working-class memories rather than ghost tales. County Commissioner Randy Wheelock still recalls earning $100 in the early 1970s painstakingly chipping old plaster off the interior brick walls so Bair could expose the original 1879 masonry, and marveling that Chip mailed out contractor checks within twenty-four hours—an almost unheard-of reliability in a seasonal mountain town that weathered stretches when half of downtown's storefronts sat dark."
+          ]
+        }
+      ],
+      "pulse": {
+        "summary": "Downtown Miner Street has enjoyed a lively pedestrian revival since the launch of the seasonal Miner Street Market promenade in 2020, while Beau Jo's continues to anchor the 1500 block following its 50th-anniversary celebration and 2023 employee-ownership transition.",
+        "highlights": [
+          "The City of Idaho Springs preserves the 1500 block of Miner Street as a walkable historic district with seasonal outdoor patio extensions along the Miner Street Market corridor.",
+          "April 1, 2023 was officially proclaimed 'Beau Jo's Day' by Colorado Governor Jared Polis to mark 50 years since Chip Bair bought the original 15-seat Mining Exchange storefront.",
+          "Across Clear Creek, Indian Hot Springs was formally designated a local historic preservation site by the City of Idaho Springs in March 2024, spotlighting the Soda Creek heritage just minutes away."
+        ]
+      },
+      "funnel": {
+        "contextShare": 35,
+        "localShare": 65,
+        "tiers": [
+          {
+            "tier": 4,
+            "group": "context",
+            "label": "Ancient Ground & Regional Era",
+            "share": "20%",
+            "title": "Ute & Arapaho Neutral Ground + 1859 Gold Strike",
+            "summary": "Geothermal Soda Creek served as a sacred healing truce zone between the Ute and Arapaho nations long before George A. Jackson thawed Chicago Creek gravel on January 5, 1859.",
+            "details": [
+              "Soda Creek formed a recognized neutral healing boundary between Ute mountain territory and Arapaho plains hunting corridors.",
+              "Jackson's January 5, 1859 tin-cup placer strike at Chicago Creek ignited the Pike's Peak Gold Rush.",
+              "USGS surveys later traced the rich gold veins to deep igneous magma fluids—the very same heat source warming Soda Creek."
+            ]
+          },
+          {
+            "tier": 3,
+            "group": "context",
+            "label": "Corridor & Creek Evolution",
+            "share": "15%",
+            "title": "Narrow-Gauge Rails, Ore Wagons & the I-70 Ski Funnel",
+            "summary": "Clear Creek Canyon evolved from wagon toll roads and the 1877 Colorado Central Railroad into the main Front Range highway feeding Colorado's ski country.",
+            "details": [
+              "Rail arrival in 1877 shifted Idaho Springs from placer panning to deep hard-rock quartz milling.",
+              "The 1903 eight-hour-day miners' strike and the 1943 Argo Tunnel flood reshaped the canyon's working-class economy.",
+              "Interstate 70's construction in the late 1950s–1960s turned Miner Street into an iconic pit stop for Denver skiers."
+            ]
+          },
+          {
+            "tier": 2,
+            "group": "local",
+            "label": "Immediate Block & Neighbors",
+            "share": "25%",
+            "title": "The 1500 Block Brick Commercial Wall (1879–1901)",
+            "summary": "Fire-conscious merchants rebuilt the 1500 block in brick—creating a tight row of assayers, jewelers, grocers, bankers, and an opera house steps apart.",
+            "details": [
+              "Next door at 1515 Miner (Mead & Cooper, 1881), M. C. Livingstone repaired storefronts' heavy canvas awnings on early commercial sewing machines.",
+              "Directly across the street, Henry Plummer (1518) and Ignatz Zeller (1510–1516) traded grain, coal, native-gold jewelry, and later four decades of local newspapers.",
+              "A January 1989 fire claimed the 1881 Coddington Block just east of the Opera House, creating today's Citizens Park."
+            ]
+          },
+          {
+            "tier": 1,
+            "group": "local",
+            "label": "Exact Parcel, Building & People",
+            "share": "40%",
+            "title": "1517–1523 Miner St: Mining Exchange → Beau Jo's",
+            "summary": "From Charles Shields' 1879 brick block and J. J. Elliott's assay/electric office to Chip Bair's $8,500 purchase from Beau & Jo Ann Faulk in 1973 and the 2023 ESOP.",
+            "details": [
+              "1879–1880s: Mining Exchange Building (Charles Shields) houses J. J. Elliott, assayer, bullion buyer & Idaho Springs Electric Company manager.",
+              "April 1973: 25-year-old Chip Bair buys the 560-sq-ft, 15-seat pizzeria from Beau & Jo Ann Faulk for $8,500.",
+              "1973–2023: Invents honey-sweetened braided Mountain Pies sold by the pound, trademarks 'Colorado-Style Pizza' (2004), and announces an employee-ownership ESOP on the 50th anniversary."
+            ]
+          }
+        ]
+      },
+      "eras": [
+        {
+          "year": "Pre-1859",
+          "eraTitle": "Sacred Neutral Ground at Soda Creek",
+          "standingHere": "Willows, cottonwoods, and worn footpaths along Clear Creek gravel bars—no permanent structures yet.",
+          "scene": "Steam rises from Soda Creek a few hundred yards south as Ute and Arapaho families gather under a longstanding truce to bathe in mineral waters and trade.",
+          "keyPeople": "Ute and Arapaho travelers, healers, and seasonal hunting parties.",
+          "artifact": "Natural geothermal mineral springs still flowing along Soda Creek Road."
+        },
+        {
+          "year": "1859",
+          "eraTitle": "Jackson's Diggings & The Gold Rush Spark",
+          "standingHere": "Canvas tents, staked placer claims, and muddy pack trails hugging the north bank of Clear Creek.",
+          "scene": "On January 5, 1859, George A. Jackson thaws frozen earth at Chicago Creek with a wood fire, pans gold in a tin cup, and sets off a stampede up the canyon.",
+          "keyPeople": "George A. Jackson, early prospectors including Henry Plummer on Chicago Creek.",
+          "artifact": "Jackson's 1858–1859 diary entries preserved by History Colorado."
+        },
+        {
+          "year": "1879–1886",
+          "eraTitle": "The Mining Exchange & Brick Boom",
+          "standingHere": "The newly raised brick Mining Exchange Building (1517–1523 Miner St), flanked by Mead & Cooper (1881), Plummer (1880s), Zeller (1885), and Turner (1886).",
+          "scene": "Dozens of ore wagons jam Miner Street outside J. J. Elliott's assay office while Elliott argues with skeptical merchants that incandescent electricity is safe.",
+          "keyPeople": "Charles Shields, J. J. Elliott, M. C. Livingstone, Henry & Emma Plummer, Ignatz Zeller.",
+          "artifact": "Exposed 1879 hand-laid brick walls still visible inside Beau Jo's dining rooms."
+        },
+        {
+          "year": "1901–1918",
+          "eraTitle": "Light-Brick Banks, Opera & Silver-Screen Nights",
+          "standingHere": "The mature Mining Exchange commercial block anchored between Miners & Merchants Bank (1901) and the 1912 Idaho Springs Opera House.",
+          "scene": "Electric streetlamps glow over boardwalks as miners finish shifts, stroll past vaudeville posters at 1535 Miner, and cash paychecks at 1501 and 1447 Miner.",
+          "keyPeople": "L. L. Roberts, S. J. Coddington, Dr. James & Lucy Underhill, Charlie Tayler.",
+          "artifact": "Light-colored masonry facade at 1501 Miner and pressed-metal cornice on the Opera House."
+        },
+        {
+          "year": "1973",
+          "eraTitle": "A 560-Square-Foot, 15-Seat Gamble",
+          "standingHere": "A tiny 560-sq-ft slice of 1517 Miner Street holding fifteen seats, a pizza oven, and fresh honey jars.",
+          "scene": "Twenty-five-year-old Chip Bair buys Beau Jo's from Beau and Jo Ann Faulk for $8,500, drops flyers at ski areas at dawn, and rolls out braided honey-dough Mountain Pies sold by the pound.",
+          "keyPeople": "Chip Bair, Beau & Jo Ann Faulk, local builder Randy Wheelock.",
+          "artifact": "Original honey-sweetened braided crust recipe and exposed brick uncovered by hand."
+        },
+        {
+          "year": "1989–1994",
+          "eraTitle": "The Coddington Fire & Historic District Revival",
+          "standingHere": "An expanded multi-bay Beau Jo's flagship anchoring a newly recognized National Historic District (listed 1983).",
+          "scene": "After fire destroys the 1881 Coddington Block in January 1989, townsfolk turn the cleared lot into Citizens Park while the adjacent Opera House is restored in 1994.",
+          "keyPeople": "Idaho Springs preservationists, Bob Gibbs & Art Rosean (Opera House restoration).",
+          "artifact": "Citizens Park open space at 1545 Miner and bronze historic building plaques along the street."
+        },
+        {
+          "year": "2023–Today",
+          "eraTitle": "50 Years & Employee Ownership",
+          "standingHere": "Beau Jo's Idaho Springs spanning 1517–1523 Miner Street along the bustling pedestrian-friendly Miner Street corridor.",
+          "scene": "On April 1, 2023—proclaimed 'Beau Jo's Day'—Chip Bair celebrates 50 years with Clear Creek locals and announces transitioning the beloved pizza shop toward an employee-owned ESOP.",
+          "keyPeople": "Chip Bair, multi-generation Beau Jo's staff, Idaho Springs Mayor Chuck Harmon.",
+          "artifact": "Historic Mining Exchange plaque by the entrance and squeeze bottles of Colorado honey on every table."
+        }
+      ],
+      "mapConfig": {
+        "title": "Miner Street & Clear Creek Walking Map",
+        "subtitle": "Centered on Beau Jo's (1517–1523 Miner St) · 9 verified hidden gems ordered strictly closest first",
+        "anchor": {
+          "x": 455,
+          "y": 218,
+          "label": "Beau Jo's (1517–1523)"
+        },
+        "streets": [
+          {
+            "type": "main",
+            "label": "MINER STREET (HISTORIC COMMERCIAL CORRIDOR)",
+            "x1": 36,
+            "y1": 176,
+            "x2": 764,
+            "y2": 176
+          },
+          {
+            "type": "cross",
+            "label": "14th Ave",
+            "x1": 146,
+            "y1": 48,
+            "x2": 146,
+            "y2": 320
+          },
+          {
+            "type": "cross",
+            "label": "15th Ave",
+            "x1": 318,
+            "y1": 48,
+            "x2": 318,
+            "y2": 325
+          },
+          {
+            "type": "cross",
+            "label": "16th Ave",
+            "x1": 718,
+            "y1": 48,
+            "x2": 718,
+            "y2": 315
+          }
+        ],
+        "waterways": [
+          {
+            "label": "Clear Creek & Greenway Trail",
+            "path": "M 28 338 Q 210 356 410 332 T 772 320"
+          }
+        ],
+        "landmarks": [
+          {
+            "x": 556,
+            "y": 400,
+            "label": "Bridal Veil Falls & Soda Creek"
+          }
+        ],
+        "scaleLabel": "150 ft / ~45 m"
+      },
+      "gems": [
+        {
+          "rank": 1,
+          "name": "The Mead & Cooper Building",
+          "address": "1515 Miner St",
+          "distance": "~25 ft W",
+          "walkTime": "< 1 min walk",
+          "status": "Intact Historic Building",
+          "statusType": "intact",
+          "year": "1881",
+          "mapX": 396,
+          "mapY": 218,
+          "story": "Immediately abutting the west wall of Beau Jo's, this 1881 commercial storefront housed M. C. Livingstone's jewelry and sewing-machine shop during the boom years of the early 1880s. Because Livingstone owned some of the very first commercial sewing machines in the entire Clear Creek mining district, he made a brisk side living stitching and repairing the heavy canvas sun-awnings that shaded nearly every storefront on Miner Street.",
+          "spotterTip": "Step ten paces west from Beau Jo's door and inspect the shared brick party-wall seam and the upper storefront cornice where Livingstone's 1881 shop meets the 1879 Mining Exchange facade."
+        },
+        {
+          "rank": 2,
+          "name": "The Plummer Building",
+          "address": "1514–1518 Miner St",
+          "distance": "~65 ft N",
+          "walkTime": "< 1 min walk",
+          "status": "Intact Historic Building",
+          "statusType": "intact",
+          "year": "Early 1880s",
+          "mapX": 462,
+          "mapY": 130,
+          "story": "Directly across Miner Street stand the brick storefronts built by Henry Plummer and his wife Emma. Plummer arrived in the 1859 gold rush, panned roughly $30,000 in placer gold from a Chicago Creek claim, served as Idaho Springs' first banker and early city councilman, and operated Henry Plummer & Co., Flour, Hay, Grain & Coal right out of 1518 Miner—feeding both the town's families and the freight teams hauling ore down the street.",
+          "spotterTip": "Cross to the north curb at 1518 Miner and look closely at the historic marker beside the entryway along with the rhythmic arched upper-story window hoods spanning the 1514–1518 trio."
+        },
+        {
+          "rank": 3,
+          "name": "The Zeller Building",
+          "address": "1510–1516 Miner St",
+          "distance": "~85 ft NW",
+          "walkTime": "1 min walk",
+          "status": "Intact Historic Building",
+          "statusType": "intact",
+          "year": "1885",
+          "mapX": 388,
+          "mapY": 122,
+          "story": "Completed in 1885, this neighbor to the Plummer block became home to Swiss-trained jeweler Ignatz Zeller, famed statewide for crafting pins and rings directly from Clear Creek County native gold and silver, alongside E. Q. Thero's Meat Market at 1516 Miner. At 1510 Miner, stationery counters gave way in 1946 to a remarkable 44-year local journalism streak—publishing the Clear Creek Mining Journal, Front Range Journal, and Clear Creek Courant until 1990—before becoming a beloved small-batch coffee roaster (now The Frothy Cup).",
+          "spotterTip": "Stand beneath the storefront transom at 1510 Miner and glance at the recessed entry and weathered brick piers that once shook with letterpresses printing weekly Clear Creek mining dispatches."
+        },
+        {
+          "rank": 4,
+          "name": "Idaho Springs Opera House",
+          "address": "1535 Miner St",
+          "distance": "~120 ft E",
+          "walkTime": "1 min walk",
+          "status": "Intact Historic Building",
+          "statusType": "intact",
+          "year": "1880s / 1912",
+          "mapX": 548,
+          "mapY": 218,
+          "story": "Owned by S. J. Coddington until 1912, when a civic consortium called the Idaho Springs Opera House Association purchased it, this two-story hall served as the valley's cultural magnet for touring vaudeville troupes, community dances, and later—as the 'Mines Theatre'—silver-screen movies running right into the 1970s. A 1940s fire destroyed the old ballroom, yet owners Bob Gibbs and Art Rosean carefully refurbished the historic facade in 1994.",
+          "spotterTip": "Cross Miner Street for the best sightline and look up above the second-floor windows: spot the crisp masonry belt course, the metal bracketed cornice, and the vertically striated frieze lined with decorative pressed-metal panels."
+        },
+        {
+          "rank": 5,
+          "name": "Citizens Park (Site of the Vanished Coddington Block)",
+          "address": "1545 Miner St",
+          "distance": "~180 ft E",
+          "walkTime": "1–2 min walk",
+          "status": "Vanished Site / Pocket Park",
+          "statusType": "vanished",
+          "year": "1881–1989",
+          "mapX": 638,
+          "mapY": 220,
+          "story": "Today's sunny pocket park marks a dramatic architectural gap in the 1500 block. From 1881 until 1989, this ground held the stately brick Coddington Block—housing W. K. Townsend's grocery and cigar counter, Paul Lanius's hardware emporium (which an 1881 newspaper celebrated for stocking 'stoves, miners' supplies, powder and fuses'), and a one-story 'Palace of Sweets' confectionery. Fire gutted the block in January 1989, and crews cleared the ruins that March to create Citizens Park.",
+          "spotterTip": "Step inside the park and look west at the exposed side wall of the Opera House next door—the sudden open sky and visible blind masonry wall trace the exact missing silhouette of the 1881 Coddington Block."
+        },
+        {
+          "rank": 6,
+          "name": "Miners & Merchants Bank Building",
+          "address": "1501 Miner St (SE Corner of 15th Ave)",
+          "distance": "~210 ft W",
+          "walkTime": "2 min walk",
+          "status": "Intact Historic Building",
+          "statusType": "intact",
+          "year": "1901",
+          "mapX": 334,
+          "mapY": 238,
+          "story": "Built in 1901 at the bustling southeast corner of 15th Avenue and Miner Street, this handsome commercial anchor split its ground floor between the Miners & Merchants Bank on the west side and S. M. Smith's furniture emporium on the east. Local businessman L. L. Roberts intentionally ordered light-colored buff brick for the exterior so the bank would stand out immediately against the sea of dark red-brick mining blocks.",
+          "spotterTip": "Pause at the 15th Avenue crosswalk and compare the pale cream-buff brick of 1501 Miner against the deep red-terracotta brick walls flanking it—L. L. Roberts' 1901 marketing trick still works instantly."
+        },
+        {
+          "rank": 7,
+          "name": "The Turner Building",
+          "address": "1447 Miner St (SW Corner of 15th Ave)",
+          "distance": "~290 ft W",
+          "walkTime": "2 min walk",
+          "status": "Intact Historic Building",
+          "statusType": "intact",
+          "year": "1886",
+          "mapX": 258,
+          "mapY": 224,
+          "story": "Robert Turner purchased this undeveloped corner lot from Silas Hanchett in 1885 and unveiled the completed two-story brick block in early spring 1886 to rave reviews as the pride of town. The Roberts Brothers Grocery Store anchored the ground floor for thirty-one years (1886–1917) while townsfolk climbed the stairs for civic meetings and fancy-dress balls; in summer 1918 the Bank of Idaho Springs (renamed First State Bank in 1944) moved downstairs.",
+          "spotterTip": "Notice the prominent angled corner entrance and tall second-story ballroom windows facing 15th and Miner—originally designed to catch maximum mountain daylight for both grocers below and dancers above."
+        },
+        {
+          "rank": 8,
+          "name": "Charlie Tayler Waterwheel",
+          "address": "Clear Creek Greenway & Bridal Veil Falls",
+          "distance": "~0.16 mi S",
+          "walkTime": "4 min walk",
+          "status": "Relocated Industrial Relic",
+          "statusType": "relic",
+          "year": "1893 (Moved 1946)",
+          "mapX": 496,
+          "mapY": 374,
+          "story": "A short stroll south from Miner Street across Clear Creek brings you face-to-face with a towering 26-foot wooden overshot waterwheel hand-built in 1893 by solitary gold miner Charlie Tayler to drive a stamp mill crushing quartz ore up on Ute Creek. After Tayler died in a downtown rooming house in late 1939, his monumental wheel was gifted to the people of Idaho Springs, hauled down to Bridal Veil Falls in 1946, and lovingly restored in 1988.",
+          "spotterTip": "Walk to the greenway viewing rail directly opposite the wheel and look closely at the heavy iron-strapped timber spokes and wooden buckets—notice how water drops from above ('overshot') to maximize torque from a steep mountain creek."
+        },
+        {
+          "rank": 9,
+          "name": "The Underhill Museum",
+          "address": "1416 Miner St",
+          "distance": "~0.19 mi W",
+          "walkTime": "4–5 min walk",
+          "status": "Intact Historic Museum",
+          "statusType": "intact",
+          "year": "1897–1900s",
+          "mapX": 122,
+          "mapY": 126,
+          "story": "Operated by the Historical Society of Idaho Springs, this quiet historic cottage was the home and assay-and-survey office of Dr. James Underhill—a Harvard graduate (1894), University of Colorado PhD, Colorado School of Mines professor, and U.S. Deputy Mineral Surveyor who arrived in 1897—and his wife Lucy. Inside, original early-1900s domestic furnishings sit steps away from mineral-claim mapping instruments that defined Clear Creek County's underground gold lodes.",
+          "spotterTip": "Even outside weekend museum hours, peek down the side path toward the back of the cottage to catch a glimpse of Lucy Underhill's tucked-away Victorian courtyard garden and period brick assay outbuilding."
+        }
+      ],
+      "trivia": [
+        {
+          "id": "bj-1",
+          "claim": "The man who ran the 1880s assay office inside this building also ran the Idaho Springs Electric Company—and had to persuade nervous townsfolk that electricity wasn't a dangerous passing fad.",
+          "verdict": "Verified Fact",
+          "explanation": "Documented by city directories and the historic Mining Exchange marker: J. J. Elliott promoted himself as an assayer and bullion buyer at 1517–1523 Miner Street while simultaneously serving as president and manager of the Idaho Springs Electric Company.",
+          "sourceNote": "Idaho Springs Historic District Marker & 1880s Clear Creek Directories"
+        },
+        {
+          "id": "bj-2",
+          "claim": "Chip Bair invented honey-sweetened Mountain Pie dough because a 1973 Floyd Hill blizzard cut off Idaho Springs' white-sugar deliveries.",
+          "verdict": "Local Lore",
+          "explanation": "While ski-line folklore loves a dramatic blizzard story, documented interviews with Chip Bair confirm he intentionally replaced white sugar with Colorado honey (and introduced whole-wheat crust) from day one in 1973—inspired by 1970s natural-foods cooking and the idea of turning the crust into a built-in dessert.",
+          "sourceNote": "Chip Bair interviews in The Gazette & The Colorado Sun"
+        },
+        {
+          "id": "bj-3",
+          "claim": "In 1973, Chip Bair paid $8,500 to buy the original 560-square-foot, 15-seat Beau Jo's shop from founders Beau and Jo Ann Faulk.",
+          "verdict": "Verified Fact",
+          "explanation": "Verified by multiple Colorado journalism profiles: 25-year-old Chip Bair bought the tiny 560-sq-ft, 15-seat Miner Street shop from Beau and Jo Ann Faulk in April 1973 for roughly $8,500 (some accounts cite $7,500 down) when it grossed just $22,000 per year.",
+          "sourceNote": "PMQ Pizza, The Gazette & The Colorado Sun (2022–2023)"
+        },
+        {
+          "id": "bj-4",
+          "claim": "Buffalo Bill Cody stopped into the Mining Exchange Building in 1917 for his famous final drink before passing away in Denver.",
+          "verdict": "Tall Tale",
+          "explanation": "Close, but wrong building! Local history places Buffalo Bill Cody's famous final 'Stone Fence' drink (whiskey and cider) on January 6, 1917 at the nearby Duck Inn saloon (later the Patten Building), not inside the Mining Exchange Building.",
+          "sourceNote": "Idaho Springs Historic Walking Tour Archives"
+        },
+        {
+          "id": "bj-5",
+          "claim": "No other restaurant in America can legally advertise its pizza as 'Colorado-Style Pizza' or 'Mountain Pie' because Beau Jo's trademarked the terms.",
+          "verdict": "Verified Fact",
+          "explanation": "Beau Jo's formally trademarked 'Colorado-Style Pizza' in 2004 (alongside 'Mountain Pie'). Other pizzerias can braid thick crusts and set honey on the table, but they cannot legally use the trademarked style names.",
+          "sourceNote": "USPTO Trademark Registry & Culinary Histories"
+        },
+        {
+          "id": "bj-6",
+          "claim": "Citizens Park at 1545 Miner Street was originally laid out by 1859 gold prospectors as Idaho Springs' central town square.",
+          "verdict": "Tall Tale",
+          "explanation": "For more than a century (1881–1989), that parcel held the dense brick Coddington Block—a grocery, cigar shop, hardware store, and confectionery. The lot only became Citizens Park after a devastating fire in January 1989 forced demolition in March 1989.",
+          "sourceNote": "Clear Creek County Historic Preservation & Jacob Barlow Marker Archive"
+        }
+      ],
+      "sources": {
+        "consulted": [
+          {
+            "title": "Mining Exchange Building Historic Marker (1517–1523 Miner St)",
+            "detail": "Documents 1879 construction, J. J. Elliott's assay/bullion office, ore-wagon traffic on Miner St, and Elliott's leadership of the Idaho Springs Electric Company.",
+            "url": "https://www.hmdb.org/"
+          },
+          {
+            "title": "The Colorado Sun (April 9, 2023) — 'Beau Jo's owner sells the iconic Colorado pizza shop to employees'",
+            "detail": "Covers Chip Bair's 1973 purchase, 15-seat origins, Governor Jared Polis's April 1, 2023 'Beau Jo's Day' proclamation, Randy Wheelock's brick-scraping story, and the 2023 ESOP transition.",
+            "url": "https://coloradosun.com/2023/04/09/beau-jos-chip-bair-employee-ownership/"
+          },
+          {
+            "title": "George A. Jackson's Diary, 1858–1859 (The Colorado Magazine, History Colorado)",
+            "detail": "Primary diary documenting Jackson's visit to the Soda Creek hot springs and his January 5, 1859 gold strike at Chicago Creek.",
+            "url": "https://www.historycolorado.org/"
+          },
+          {
+            "title": "Idaho Springs Downtown Commercial Historic District Survey & Plaque Archive",
+            "detail": "Building-by-building histories for Mead & Cooper (1515), Plummer (1514–1518), Zeller (1510–1516), Opera House (1535), Coddington Block (1545), Miners & Merchants Bank (1501), Turner Building (1447), and Underhill Museum (1416).",
+            "url": "https://www.historicsprings.org/"
+          }
+        ],
+        "digDeeper": [
+          {
+            "label": "Sanborn Fire Insurance Maps — Idaho Springs, CO (1886, 1890, 1895, 1900, 1907)",
+            "instruction": "Search the Library of Congress Sanborn Map digital collection for 'Idaho Springs, Clear Creek County' Sheet 2 to inspect the exact brick wall thickness, assay furnace markings, and wooden awnings of the 1500 block of Miner Street."
+          },
+          {
+            "label": "Colorado Historic Newspapers Collection (CHNC)",
+            "instruction": "Filter by 'Idaho Springs Siftings' and 'Clear Creek Mining Journal' (1880–1918) using terms like 'J. J. Elliott', 'Charles Shields', 'Mining Exchange', and 'Coddington Block'."
+          },
+          {
+            "label": "Historical Society of Idaho Springs (Underhill Museum, 1416 Miner St)",
+            "instruction": "Request Clear Creek County parcel folders for Block 15 Miner Street and Dr. James Underhill's original mineral survey notebooks."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hotel-de-paris-georgetown",
+      "slug": "hotel-de-paris-georgetown",
+      "name": "Hotel de Paris Museum",
+      "subtitle": "1875 French Norman Inn · Louis Dupuy's Silver-Boom Time Capsule",
+      "shortLabel": "Hotel de Paris · Georgetown, CO",
+      "address": "409 6th St, Georgetown, CO 80444",
+      "neighborhood": "Georgetown–Silver Plume National Historic Landmark District",
+      "coordinates": {
+        "lat": 39.7059,
+        "lng": -105.6958,
+        "display": "39.7059° N, 105.6958° W"
+      },
+      "elevation": "8,530 ft",
+      "yearBuilt": "1875 (Expanded 1889–1893)",
+      "archetype": "Historic Hotel & Preservation Museum",
+      "verified": true,
+      "listenMinutes": 6,
+      "tagline": "A runaway French chef and U.S. Army deserter built a haute-cuisine stone inn at 8,530 feet—and kept his real name secret until his deathbed.",
+      "keywords": [
+        "hotel de paris",
+        "409 6th",
+        "409 sixth",
+        "georgetown",
+        "louis dupuy"
+      ],
+      "chapters": [
+        {
+          "id": "overview",
+          "number": 1,
+          "title": "Location Overview",
+          "paragraphs": [
+            "Sitting at 8,530 feet in a dramatic glacial bowl ringed by granite peaks, 409 Sixth Street in Georgetown, Colorado looks less like a rough-and-tumble Rocky Mountain mining tavern and more like a stuccoed Norman inn lifted straight out of rural France. Anchoring the corner of Sixth and Taos streets inside the Georgetown–Silver Plume National Historic Landmark District, the Hotel de Paris Museum is widely regarded as one of the most intact nineteenth-century historic parcels in Colorado, retaining roughly ninety percent of its original 1890s furnishings, wine racks, kitchen copperware, and proprietor's library.",
+            "Before silver veins drew thousands up South Clear Creek in the 1860s, the high valley served as summer hunting terrain for Ute bands crossing Guanella and Argentine passes. Once rich silver lodes turned Georgetown into the 'Silver Queen of Colorado,' fortunes arrived faster than manners—making it all the more astonishing when a mysterious Frenchman calling himself Louis Dupuy opened a fine-dining hotel here in 1875, serving French wines, oysters, and duck in a town still clearing pine stumps from its streets."
+          ]
+        },
+        {
+          "id": "history",
+          "number": 2,
+          "title": "Deep & Everyday History",
+          "paragraphs": [
+            "The story of 409 Sixth Street begins with an alias. Born Adolphe François Gérard in Alençon, France, the future hotelier trained briefly in Parisian kitchens, drifted through London and New York journalism, enlisted in the U.S. Army in 1868, and promptly deserted his post on the frontier—re-emerging in Colorado's silver camps under the name Louis Dupuy. After a near-fatal mining blast at the Equator Mine in 1873 left him recovering through community generosity, Dupuy bought an old bakery on Sixth Street and opened the Hotel de Paris in 1875.",
+            "Between 1875 and 1893, Dupuy personally stuccoed exterior masonry to mimic French ashlar stone, installed hot-and-cold running water and steam heat before most Denver mansions had them, and built a courtyard complete with a fountain and grapevines. Traveling salesmen displayed sample trunks in his ground-floor showroom while mining barons and curious Eastern journalists booked seats in his dining room—though Dupuy famously reserved the right to turn away anyone whose manners he disliked.",
+            "The repeal of the Sherman Silver Purchase Act in 1893 shattered Georgetown's silver economy almost overnight. Dupuy stayed on quietly until his death in October 1900, revealing his true birth name only near the end. In 1903, widow Sarah Burkholder purchased the property and ran it with her daughter Hazel McAdams as a steady working-class boarding house until 1939. In 1954, the National Society of the Colonial Dames of America in Colorado acquired the parcel and preserved it as a museum, saving one of the West's finest architectural time capsules."
+          ]
+        },
+        {
+          "id": "weird",
+          "number": 3,
+          "title": "Weird Facts & Unusual Metrics",
+          "paragraphs": [
+            "For a mountain mining town perched above 8,500 feet, Dupuy's engineering obsessions bordered on futuristic. Documented restoration records show he equipped the Hotel de Paris with central steam heating, gas lighting, and indoor plumbing with hot and cold taps in the guest rooms—luxuries scarcely seen elsewhere in 1880s Clear Creek County. Even the building's stately stone exterior is an optical illusion: Dupuy scored wet stucco over timber and brick to imitate cut French limestone blocks.",
+            "Roughly ninety percent of the artifacts inside today—from the massive cast-iron kitchen range and Haviland china to more than a thousand volumes in Dupuy's personal French-and-English library—never left the lot, thanks to Sarah Burkholder and Hazel McAdams carefully keeping his rooms intact for fifty years after his death."
+          ]
+        },
+        {
+          "id": "lore",
+          "number": 4,
+          "title": "Curiosities, Obscure Tales & Local Lore",
+          "paragraphs": [
+            "Local lore paints Louis Dupuy as a prickly philosopher-king who kept a sign of silence in spirit if not in letter, lecturing wealthy guests on egalitarian politics while refusing to serve travelers who rushed their meals. Modern ghost tours frequently claim an apparition in 1890s attire—identified by visitors from Dupuy's portrait—gives polite directions inside the hallway before vanishing. Historians gently note that while the ghostly encounters belong firmly to oral tradition, Dupuy's real-life mystery as an army deserter living under an assumed identity for thirty years needs no supernatural embellishment."
+          ]
+        }
+      ],
+      "pulse": {
+        "summary": "Owned and interpreted by the National Society of the Colonial Dames of America in Colorado as a National Trust Historic Site, Hotel de Paris continues seasonal guided tours, courtyard concerts, and preservation workshops along Georgetown's lively Sixth Street.",
+        "highlights": [
+          "Weekend and seasonal tours showcase nearly 90% original 1890s furnishings, including Dupuy's wine cellar and kitchen.",
+          "Georgetown's historic Sixth Street corridor remains a centerpiece of Clear Creek County's heritage tourism alongside the Georgetown Loop Railroad."
+        ]
+      },
+      "funnel": {
+        "contextShare": 35,
+        "localShare": 65,
+        "tiers": [
+          {
+            "tier": 4,
+            "group": "context",
+            "label": "Ancient Ground & Regional Era",
+            "share": "20%",
+            "title": "High-Altitude Ute Corridors & Colorado's Silver Boom",
+            "summary": "Carved by glaciers at 8,530 feet, the South Clear Creek valley turned from high summer hunting ground into Colorado's premier 1870s silver capital.",
+            "details": [
+              "Silver strikes in 1864–1867 made Georgetown one of Colorado's largest early cities.",
+              "The 1893 silver crash froze the town's Victorian architecture in place."
+            ]
+          },
+          {
+            "tier": 3,
+            "group": "context",
+            "label": "Corridor & Creek Evolution",
+            "share": "15%",
+            "title": "The Georgetown Loop & Canyon Rail Link",
+            "summary": "Narrow-gauge railroads climbed the steep gorge to haul silver ore down toward Golden and Denver, crowned by the famous 1884 Devil's Gate High Bridge.",
+            "details": [
+              "Rail connections brought fresh oysters, French wine, and traveling sample-men straight to Sixth Street."
+            ]
+          },
+          {
+            "tier": 2,
+            "group": "local",
+            "label": "Immediate Block & Neighbors",
+            "share": "25%",
+            "title": "Sixth & Taos Civic Core",
+            "summary": "Firehouses, stone commercial blocks, and Victorian mansions clustered within three short blocks of Dupuy's corner.",
+            "details": [
+              "Alpine Hose No. 2 (507 5th St) protected the timber-and-brick blocks from the fires that devastated rival camps.",
+              "Cushman Block (1872) and Hamill House (305 Argentine St) anchored Georgetown's social elite."
+            ]
+          },
+          {
+            "tier": 1,
+            "group": "local",
+            "label": "Exact Parcel, Building & People",
+            "share": "40%",
+            "title": "409 Sixth St: Bakery → Dupuy's Inn → Museum",
+            "summary": "Louis Dupuy (Adolphe François Gérard), Sarah Burkholder, Hazel McAdams, and the 1954 Colonial Dames preservation rescue.",
+            "details": [
+              "1875–1893: Built and expanded by Louis Dupuy with scored French-style stucco and steam heat.",
+              "1903–1939: Preserved as a boarding house by Sarah Burkholder and Hazel McAdams.",
+              "1954–Present: Restored and operated as a National Trust historic site museum."
+            ]
+          }
+        ]
+      },
+      "eras": [
+        {
+          "year": "1864",
+          "eraTitle": "Silver Fever on South Clear Creek",
+          "standingHere": "Open pine-and-gravel valley lots as silver prospectors stake claims on surrounding slopes.",
+          "scene": "Word of high-grade silver lodes turns a quiet gold camp into 'The Silver Queen of Colorado.'",
+          "keyPeople": "George Griffith & early Clear Creek silver prospectors.",
+          "artifact": "Early lode claim notices filed at the Clear Creek County Courthouse."
+        },
+        {
+          "year": "1875",
+          "eraTitle": "Dupuy Opens the Hotel de Paris",
+          "standingHere": "A converted bakery at 409 Sixth Street reborn as a French dining room and inn.",
+          "scene": "Recovering from a mine blast, mysterious Frenchman Louis Dupuy serves crisp linens and continental cuisine to astonished silver miners.",
+          "keyPeople": "Louis Dupuy (Adolphe François Gérard).",
+          "artifact": "Original cast-iron kitchen range and wine cellar beneath the dining room."
+        },
+        {
+          "year": "1889–1893",
+          "eraTitle": "High Victorian Peak & The Silver Crash",
+          "standingHere": "The full 7,000-sq-ft stuccoed Hotel de Paris with courtyard fountain, gas lamps, and steam heat.",
+          "scene": "Traveling salesmen unpack sample trunks on Sixth Street right before the 1893 repeal of the Sherman Silver Act halts the boom.",
+          "keyPeople": "Louis Dupuy, visiting Eastern journalists & mining investors.",
+          "artifact": "Scored French-ashlar stucco facade and Dupuy's 1,000+ book library."
+        },
+        {
+          "year": "1903–1939",
+          "eraTitle": "The Burkholder Boarding House Era",
+          "standingHere": "The intact hotel run steadily as a family boarding house.",
+          "scene": "Sarah Burkholder and her daughter Hazel McAdams keep Dupuy's rooms, china, and furniture lovingly intact through lean decades.",
+          "keyPeople": "Sarah Burkholder & Hazel McAdams.",
+          "artifact": "Original guest-room washstands and ledgers preserved verbatim."
+        },
+        {
+          "year": "1954–Today",
+          "eraTitle": "Preserved Time Capsule",
+          "standingHere": "Hotel de Paris Museum, a National Trust for Historic Preservation site.",
+          "scene": "Acquired by the Colonial Dames of America in Colorado in 1954, the building welcomes visitors into an unvarnished 1890s mountain inn.",
+          "keyPeople": "NSCDA Colorado historians, docents, and Georgetown preservationists.",
+          "artifact": "State Historical Society Marker #12 mounted right at Sixth & Taos."
+        }
+      ],
+      "mapConfig": {
+        "title": "Georgetown Sixth Street Walking Map",
+        "subtitle": "Centered on Hotel de Paris (409 6th St) · 4 verified gems ordered closest first",
+        "anchor": {
+          "x": 410,
+          "y": 195,
+          "label": "Hotel de Paris (409 6th St)"
+        },
+        "streets": [
+          {
+            "type": "main",
+            "label": "SIXTH STREET HISTORIC CORE",
+            "x1": 60,
+            "y1": 162,
+            "x2": 740,
+            "y2": 162
+          },
+          {
+            "type": "cross",
+            "label": "Taos St",
+            "x1": 350,
+            "y1": 50,
+            "x2": 350,
+            "y2": 340
+          },
+          {
+            "type": "cross",
+            "label": "Argentine St",
+            "x1": 540,
+            "y1": 50,
+            "x2": 540,
+            "y2": 340
+          }
+        ],
+        "waterways": [
+          {
+            "label": "South Clear Creek",
+            "path": "M 40 340 Q 260 356 490 330 T 760 315"
+          }
+        ],
+        "landmarks": [
+          {
+            "x": 640,
+            "y": 388,
+            "label": "Toward Georgetown Loop (0.7 mi S)"
+          }
+        ],
+        "scaleLabel": "200 ft / ~60 m"
+      },
+      "gems": [
+        {
+          "rank": 1,
+          "name": "Cushman Block I",
+          "address": "6th St & Taos St",
+          "distance": "~90 ft W",
+          "walkTime": "1 min walk",
+          "status": "Intact Historic Building",
+          "statusType": "intact",
+          "year": "1872",
+          "mapX": 290,
+          "mapY": 195,
+          "story": "Within shouting distance of Hotel de Paris, the 1872 Cushman Block predates Dupuy's inn by three years and anchored Georgetown's early banking and commercial life during the first wave of the silver rush.",
+          "spotterTip": "Look at the tall masonry proportions and original cast-iron storefront columns right at the Sixth and Taos corner."
+        },
+        {
+          "rank": 2,
+          "name": "Alpine Hose No. 2 Firefighting Museum",
+          "address": "507 5th St",
+          "distance": "~0.11 mi SE",
+          "walkTime": "2 min walk",
+          "status": "Intact Historic Building",
+          "statusType": "intact",
+          "year": "1874",
+          "mapX": 485,
+          "mapY": 265,
+          "story": "Georgetown escaped the catastrophic blazes that leveled other Colorado mining towns largely thanks to disciplined volunteer fire brigades like Alpine Hose No. 2, whose iconic 60-foot wooden bell-and-hose-drying tower still rises above 5th Street.",
+          "spotterTip": "Tilt your head all the way up the slender wooden hose tower—volunteers hoisted wet canvas fire hoses vertically inside to keep them from rotting in freezing mountain air."
+        },
+        {
+          "rank": 3,
+          "name": "Hamill House Museum",
+          "address": "305 Argentine St",
+          "distance": "~0.20 mi SE",
+          "walkTime": "4 min walk",
+          "status": "Intact Historic Museum",
+          "statusType": "intact",
+          "year": "1867–1879",
+          "mapX": 595,
+          "mapY": 235,
+          "story": "Originally a modest 1867 Gothic Revival cottage expanded into a lavish silver-baron estate by William A. Hamill in 1879, complete with a greenhouse conservatory, granite carriage house, and gold-and-silver wallpaper.",
+          "spotterTip": "Walk past the low granite retaining wall to spot the ornate Victorian conservatory glasshouse and matching stone carriage barn out back."
+        },
+        {
+          "rank": 4,
+          "name": "Georgetown Loop Railroad High Bridge",
+          "address": "646 Loop Dr (Devil's Gate)",
+          "distance": "~0.75 mi S",
+          "walkTime": "15 min walk",
+          "status": "Reconstructed Engineering Landmark",
+          "statusType": "relic",
+          "year": "1884 / Rebuilt 1984",
+          "mapX": 645,
+          "mapY": 350,
+          "story": "Completed on March 10, 1884 by the Colorado Central Railroad, this narrow-gauge corkscrew climbed the steep canyon between Georgetown and Silver Plume across a dizzying 95-foot steel trestle—dismantled in 1939 and rebuilt by preservationists in 1984.",
+          "spotterTip": "Look for the double-track cross-over geometry where the narrow-gauge line loops right over itself to conquer the canyon grade."
+        }
+      ],
+      "trivia": [
+        {
+          "id": "hp-1",
+          "claim": "The Hotel de Paris's exterior is carved from imported French limestone blocks hauled up Clear Creek Canyon by narrow-gauge rail.",
+          "verdict": "Tall Tale",
+          "explanation": "It's a brilliant architectural illusion! Louis Dupuy applied stucco over local brick and wood and scored mortar lines into the wet plaster by hand to mimic cut French ashlar stone.",
+          "sourceNote": "Hotel de Paris Museum Architectural Survey"
+        },
+        {
+          "id": "hp-2",
+          "claim": "Louis Dupuy was actually a pseudonym used by French emigrant and U.S. Army deserter Adolphe François Gérard until his death in 1900.",
+          "verdict": "Verified Fact",
+          "explanation": "Documented by the 1954 Colorado State Historical Society marker and archival research: Gérard deserted his U.S. Army post in the West around 1869 and lived in Georgetown for decades under the name Louis Dupuy.",
+          "sourceNote": "Colorado Historical Marker #12 & National Trust Archives"
+        },
+        {
+          "id": "hp-3",
+          "claim": "Visitors regularly report receiving directions in the hallway from a politely dressed 1890s gentleman matching Louis Dupuy's portrait.",
+          "verdict": "Local Lore",
+          "explanation": "This is one of Georgetown's most enduring ghost stories, repeated by guests and paranormal guides for decades—firmly rooted in local oral tradition rather than documented archives.",
+          "sourceNote": "Georgetown Oral Folklore"
+        }
+      ],
+      "sources": {
+        "consulted": [
+          {
+            "title": "National Trust for Historic Preservation — Hotel de Paris Museum",
+            "detail": "Documents the 1875 founding, 1889–1893 expansion, 1903–1939 Burkholder boarding house years, and 1954 NSCDA Colorado restoration.",
+            "url": "https://savingplaces.org/places/hotel-de-paris"
+          },
+          {
+            "title": "Colorado State Historical Society Marker #12 (1954)",
+            "detail": "Confirms Louis Dupuy's identity as Adolphe François Gérard and his literary, culinary, and architectural legacy in Georgetown.",
+            "url": "https://www.hmdb.org/m.asp?m=173300"
+          }
+        ],
+        "digDeeper": [
+          {
+            "label": "Hotel de Paris Museum Archive (409 6th St, Georgetown)",
+            "instruction": "Ask museum staff about Louis Dupuy's original guest registers and his 1880s wine-cellar shipping invoices."
+          },
+          {
+            "label": "Historic Georgetown, Inc. Archives",
+            "instruction": "Explore 1870s–1890s Georgetown Courier issues and Sanborn maps for Sixth and Taos streets."
+          }
+        ]
+      }
+    }
+  ]
+}
